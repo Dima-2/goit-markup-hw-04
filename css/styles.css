@@ -47,6 +47,7 @@ img {
   padding: 0 15px;
   margin: 0 auto;
   align-items: center;
+  display: block;
   }
 
 /* =============HEADER=========== */
@@ -569,7 +570,8 @@ margin: auto;
 }
 
 .footer-address-container {
-  display: block;
+  display: inline-block;
+ 
 }
 
 .social-title {
@@ -587,6 +589,8 @@ margin: auto;
   width: 206px;
   height: 80px;
   display: inline-block;
+  margin-left: 70px;
+  margin-top: 72px;
 }
 
 .icon-footer {
@@ -608,8 +612,13 @@ margin: auto;
   align-items: center;
  background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-
 }
+
+  .social-list-footer-item:hover,
+  .social-list-footer-item:focus {
+    background-color: var(--accent-color)
+  }
+
 /* =======================END FOOTER========================= */
 
 /* ==================HEADER-PORTFOLIO====================== */
@@ -618,6 +627,7 @@ margin: auto;
   padding-bottom: 24px;
   border: 1px solid #ECECEC;
   margin-bottom: 64px;
+ 
 }
 /* ==========END HEADER-PORTFOLIO======================== */
 
