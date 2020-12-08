@@ -685,6 +685,10 @@ margin: auto;
   border: 1px solid #EEEEEE;
 }
 
+.work-list-item:hover,
+.work-list-item:focus {
+  }
+
 .work-list-item:nth-child(3n) {
   margin-right: 0;
 }
