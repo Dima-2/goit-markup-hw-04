@@ -656,6 +656,7 @@ margin: auto;
   color: #212121;
   text-decoration: none;
   border: unset;
+  cursor: pointer;
 }
 
 .filters-text {
