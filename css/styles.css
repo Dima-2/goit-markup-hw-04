@@ -198,9 +198,11 @@ img {
 /* ==============HERO============== */
 .hero {
   text-align: center;
-  width: auto;
+  max-width: 1600px;
   height: 600px;
   margin-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
   display:block;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
   url("../images/Studio/hero.jpg");
